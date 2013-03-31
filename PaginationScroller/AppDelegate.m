@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  PaginationScroller
 //
-
+//  Copyright (c) 2013 Fr@nk. All rights reserved.
 
 #import "AppDelegate.h"
 

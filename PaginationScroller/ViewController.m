@@ -2,7 +2,7 @@
 //  ViewController.m
 //  PaginationScroller
 //
-
+//  Copyright (c) 2013 Fr@nk. All rights reserved.
 
 #import "ViewController.h"
 #import "Object.h"
