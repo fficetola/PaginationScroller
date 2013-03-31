@@ -23,9 +23,8 @@
 		015833C3170727E700618C00 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 015833C2170727E700618C00 /* Reachability.m */; };
 		015833C6170727F000618C00 /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 015833C5170727F000618C00 /* Object.m */; };
 		015833CB1707280600618C00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 015833CA1707280600618C00 /* main.m */; };
-		015834051707285600618C00 /* PaginationScroller-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 015833EC1707285600618C00 /* PaginationScroller-Info.plist */; };
-		015834071707285600618C00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 015833F21707285600618C00 /* ViewController.m */; };
 		01583425170871B100618C00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 015833CC1707282200618C00 /* InfoPlist.strings */; };
+		0158344317087C4300618C00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 015833F81707285600618C00 /* ViewController.m */; };
 		B5ADA9AC1517FBC200A85FBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5ADA9AB1517FBC200A85FBB /* UIKit.framework */; };
 		B5ADA9AE1517FBC200A85FBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5ADA9AD1517FBC200A85FBB /* Foundation.framework */; };
 		B5ADA9B01517FBC200A85FBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5ADA9AF1517FBC200A85FBB /* CoreGraphics.framework */; };
@@ -66,40 +65,6 @@
 		015833C8170727F700618C00 /* PaginationScroller-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PaginationScroller-Prefix.pch"; path = "PaginationScroller/PaginationScroller-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		015833CA1707280600618C00 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PaginationScroller/main.m; sourceTree = SOURCE_ROOT; };
 		015833CD1707282200618C00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = PaginationScroller/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		015833D11707285600618C00 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		015833D21707285600618C00 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		015833D31707285600618C00 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
-		015833D41707285600618C00 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
-		015833D51707285600618C00 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
-		015833D61707285600618C00 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
-		015833D71707285600618C00 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
-		015833D81707285600618C00 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
-		015833D91707285600618C00 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
-		015833DA1707285600618C00 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
-		015833DB1707285600618C00 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
-		015833DC1707285600618C00 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
-		015833DD1707285600618C00 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
-		015833DE1707285600618C00 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
-		015833DF1707285600618C00 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
-		015833E01707285600618C00 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
-		015833E11707285600618C00 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
-		015833E21707285600618C00 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
-		015833E31707285600618C00 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
-		015833E41707285600618C00 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
-		015833E51707285600618C00 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
-		015833E61707285600618C00 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
-		015833E81707285600618C00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		015833E91707285600618C00 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		015833EA1707285600618C00 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
-		015833EB1707285600618C00 /* Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
-		015833EC1707285600618C00 /* PaginationScroller-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PaginationScroller-Info.plist"; sourceTree = "<group>"; };
-		015833ED1707285600618C00 /* PaginationScroller-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PaginationScroller-Prefix.pch"; sourceTree = "<group>"; };
-		015833EF1707285600618C00 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		015833F01707285600618C00 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		015833F11707285600618C00 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		015833F21707285600618C00 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		015833F31707285600618C00 /* PaginationScroller.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PaginationScroller.xcodeproj; sourceTree = "<group>"; };
-		015833F61707285600618C00 /* PaginationScroller.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = PaginationScroller.xcworkspace; sourceTree = "<group>"; };
 		015833F71707285600618C00 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = PaginationScroller/ViewController.h; sourceTree = SOURCE_ROOT; };
 		015833F81707285600618C00 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = PaginationScroller/ViewController.m; sourceTree = SOURCE_ROOT; };
 		B5ADA9A71517FBC200A85FBB /* PaginationScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaginationScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +116,7 @@
 				015833B7170727DE00618C00 /* ASIProgressDelegate.h */,
 			);
 			name = ASI;
+			path = BeerScroller;
 			sourceTree = "<group>";
 		};
 		015833C0170727E700618C00 /* Reachability */ = {
@@ -166,9 +132,9 @@
 		015833CF1707285600618C00 /* PaginationScroller */ = {
 			isa = PBXGroup;
 			children = (
+				015833C0170727E700618C00 /* Reachability */,
+				015833A3170727D100618C00 /* ASI */,
 				015833D01707285600618C00 /* PaginationScroller */,
-				015833F31707285600618C00 /* PaginationScroller.xcodeproj */,
-				015833F61707285600618C00 /* PaginationScroller.xcworkspace */,
 			);
 			name = PaginationScroller;
 			sourceTree = SOURCE_ROOT;
@@ -176,53 +142,14 @@
 		015833D01707285600618C00 /* PaginationScroller */ = {
 			isa = PBXGroup;
 			children = (
-				015833D11707285600618C00 /* AppDelegate.h */,
-				015833D21707285600618C00 /* AppDelegate.m */,
-				015833D31707285600618C00 /* ASIAuthenticationDialog.h */,
-				015833D41707285600618C00 /* ASIAuthenticationDialog.m */,
-				015833D51707285600618C00 /* ASICacheDelegate.h */,
-				015833D61707285600618C00 /* ASIDataCompressor.h */,
-				015833D71707285600618C00 /* ASIDataCompressor.m */,
-				015833D81707285600618C00 /* ASIDataDecompressor.h */,
-				015833D91707285600618C00 /* ASIDataDecompressor.m */,
-				015833DA1707285600618C00 /* ASIDownloadCache.h */,
-				015833DB1707285600618C00 /* ASIDownloadCache.m */,
-				015833DC1707285600618C00 /* ASIFormDataRequest.h */,
-				015833DD1707285600618C00 /* ASIFormDataRequest.m */,
-				015833DE1707285600618C00 /* ASIHTTPRequest.h */,
-				015833DF1707285600618C00 /* ASIHTTPRequest.m */,
-				015833E01707285600618C00 /* ASIHTTPRequestConfig.h */,
-				015833E11707285600618C00 /* ASIHTTPRequestDelegate.h */,
-				015833E21707285600618C00 /* ASIInputStream.h */,
-				015833E31707285600618C00 /* ASIInputStream.m */,
-				015833E41707285600618C00 /* ASINetworkQueue.h */,
-				015833E51707285600618C00 /* ASINetworkQueue.m */,
-				015833E61707285600618C00 /* ASIProgressDelegate.h */,
-				015833E71707285600618C00 /* InfoPlist.strings */,
-				015833E91707285600618C00 /* main.m */,
-				015833EA1707285600618C00 /* Object.h */,
-				015833EB1707285600618C00 /* Object.m */,
-				015833EC1707285600618C00 /* PaginationScroller-Info.plist */,
-				015833ED1707285600618C00 /* PaginationScroller-Prefix.pch */,
-				015833EE1707285600618C00 /* Reachability */,
-				015833F11707285600618C00 /* ViewController.h */,
-				015833F21707285600618C00 /* ViewController.m */,
+				015833F71707285600618C00 /* ViewController.h */,
+				015833F81707285600618C00 /* ViewController.m */,
+				015833C4170727F000618C00 /* Object.h */,
+				015833C5170727F000618C00 /* Object.m */,
+				015833A0170727C500618C00 /* AppDelegate.h */,
+				015833A1170727C500618C00 /* AppDelegate.m */,
 			);
 			path = PaginationScroller;
-			sourceTree = "<group>";
-		};
-		015833EE1707285600618C00 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				015833EF1707285600618C00 /* Reachability.h */,
-				015833F01707285600618C00 /* Reachability.m */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
-		015833F41707285600618C00 /* Products */ = {
-			isa = PBXGroup;
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B5ADA99C1517FBC200A85FBB = {
@@ -260,14 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				015833CF1707285600618C00 /* PaginationScroller */,
-				015833F71707285600618C00 /* ViewController.h */,
-				015833F81707285600618C00 /* ViewController.m */,
-				015833C4170727F000618C00 /* Object.h */,
-				015833C5170727F000618C00 /* Object.m */,
-				015833C0170727E700618C00 /* Reachability */,
-				015833A3170727D100618C00 /* ASI */,
-				015833A0170727C500618C00 /* AppDelegate.h */,
-				015833A1170727C500618C00 /* AppDelegate.m */,
 				B5ADA9B21517FBC200A85FBB /* Supporting Files */,
 			);
 			name = PaginationScroller;
@@ -324,12 +243,6 @@
 			mainGroup = B5ADA99C1517FBC200A85FBB;
 			productRefGroup = B5ADA9A81517FBC200A85FBB /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 015833F41707285600618C00 /* Products */;
-					ProjectRef = 015833F31707285600618C00 /* PaginationScroller.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				B5ADA9A61517FBC200A85FBB /* PaginationScroller */,
@@ -343,7 +256,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				01583425170871B100618C00 /* InfoPlist.strings in Resources */,
-				015834051707285600618C00 /* PaginationScroller-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0158344317087C4300618C00 /* ViewController.m in Sources */,
 				015833A2170727C500618C00 /* AppDelegate.m in Sources */,
 				015833B8170727DE00618C00 /* ASIAuthenticationDialog.m in Sources */,
 				015833B9170727DE00618C00 /* ASIDataCompressor.m in Sources */,
@@ -366,7 +279,6 @@
 				015833C3170727E700618C00 /* Reachability.m in Sources */,
 				015833C6170727F000618C00 /* Object.m in Sources */,
 				015833CB1707280600618C00 /* main.m in Sources */,
-				015834071707285600618C00 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,14 +289,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				015833CD1707282200618C00 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		015833E71707285600618C00 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				015833E81707285600618C00 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
